@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attributes</title>
+    <style>
+        #css{
+            color: black;
+            background-color: whitesmoke;
+
+        }
+
+        .one{
+            color: pink;
+            background-color: blueviolet;
+            font-style: italic;
+            font-size: 30px;
+            height: 200px;
+            width: 200px;
+            text-align: center;
+        }
+        ul li{
+            font-size: 20px;
+            font-style: italic;
+            color: yellow;
+            background-color: black;
+        }
+        .two{
+            height: fit-content;
+            width: fit-content;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Attributes</h1>
+    <!-- Internal link -->
+    <p><a href="form.html">Form</a></p>
+    <!-- Externa link -->
+    
+    <!-- Hidden -->
+    <h4 hidden>Akshaya</h4>
+    <!-- contenteditable -->
+    <h3 contenteditable="true">Edit</h3>
+    <!-- dragable -->
+    <p draggable="true">Drag me</p>
+    <!-- IMage --> <!-- Externa link -->
+    
+     <a href="https://www.swiggy.com/">
+    <img style="height: 300px; width: 300px; border: solid; border-color: brown; background-color: ;"
+        src="food_image_5.png" alt="Loading">
+        <h4>Click above image to order</h4>
+     </a>
+    <!-- Inline style -->
+    <p style="border: solid; border-color: black; text-align: center; font-size: 30px; background-color: aqua;">
+        this above image is food. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates earum a ipsa ea,
+        culpa excepturi. Deserunt saepe architecto eligendi, qui, unde obcaecati accusamus error dignissimos quasi
+        impedit maxime rerum voluptates.</p>
+        <!-- External css -->
+         <h3 id="css"> 
+            Food Shopping
+
+         </h3>
+         <div class="one">
+            <h3>Order Food To enjoy</h3>
+            
+
+         </div>
+         <div class="two">
+            <ul>
+                <li>Pizza</li>
+                <li>Burger</li>
+                <li>Noodles</li>
+            </ul>
+
+         </div>
+
+
+
+
+</body>
+
+</html>
